@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- App Logo -->
+
+    <ImageView
+        android:src="@drawable/execise1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="App Logo" />
+
+    <!-- Tagline -->
+    <TextView
+        android:text="GinoMatt - Your Fitness Streak Buddy"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Register Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        app:cornerRadius="32dp"
+        app:icon="@drawable/muscle"
+        app:iconGravity="textStart"
+        app:iconPadding="12dp"
+        app:iconTint="@color/white"
+        app:rippleColor="@color/teal_200"
+        app:backgroundTint="@color/purple_500"/>
+
+    <!-- Login Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        app:cornerRadius="32dp"
+        app:icon="@drawable/fire"
+        app:iconGravity="textStart"
+        app:iconPadding="12dp"
+        app:strokeColor="@color/purple_500"
+        app:strokeWidth="2dp"
+        style="@style/Widget.Material3.Button.OutlinedButton" />
+
+    <!-- Offline Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOffline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue Offline"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        app:cornerRadius="32dp"
+        app:icon="@drawable/execise1"
+        app:iconGravity="textStart"
+        app:iconPadding="12dp"
+        app:rippleColor="@color/gray"
+        style="@style/Widget.Material3.Button.TextButton" />
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btnGoogleSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

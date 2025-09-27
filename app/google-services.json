@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "509254435249",
+    "project_id": "ginomatt-5602c",
+    "storage_bucket": "ginomatt-5602c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509254435249:android:c3151bc1e388414af3fd90",
+        "android_client_info": {
+          "package_name": "com.example.ginomatt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPFFLlh8R3qT5_9m3kmBEsmdMfQHvwRHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

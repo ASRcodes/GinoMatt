@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/streakLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvStreakTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Streak"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <!-- RecyclerView for Calendar Grid -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:scrollbars="vertical" />
+
+    <!-- Milestone Message -->
+    <TextView
+        android:id="@+id/tvStreakMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Congrats! You hit 7-day streak!"
+        android:textSize="16sp"
+        android:textColor="@color/green"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
